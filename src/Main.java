@@ -30,6 +30,9 @@ public class Main {
         //FindDuplicates.fvoidindDup(arr);
 
         int[] arr2 = {24,41,11,54,92,33,64,79};
-        BubbleSort.bubbleSortAlgo(arr2);
+        //BubbleSort.bubbleSortAlgo(arr2);
+
+        int[] arr3 = {10, 5, 8, 20, 25, 25, 1};
+        System.out.println("Second largest element: " + SecondLargest.secondLargestNumber(arr3));
     }
 }
